@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppMusic</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home fragment</string>
+    <string name="find_fragment">Find fragment</string>
+    <string name="favorite_fragment">Favorite fragment</string>
+</resources>

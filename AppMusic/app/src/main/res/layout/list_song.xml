@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background2"
+    android:weightSum="10">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+
+            android:background="#FF3700B3"
+            android:drawablePadding="10dp"
+            android:hint="Nhaccuatui"
+            android:padding="20dp"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white">
+        </TextView>
+
+
+        <ImageView
+            android:id="@+id/imageview"
+            android:layout_width="410dp"
+            android:layout_height="260dp"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="8dp"
+            android:src="@drawable/background3">
+        </ImageView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Danh sách bài hát"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="30dp"
+            android:textStyle="bold">
+        </TextView>
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
+    </LinearLayout>
+</RelativeLayout>
